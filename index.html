@@ -1,7 +1,12 @@
 
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
 
-<html>
+</head>
 
  <style> 
 
@@ -20,6 +25,8 @@
   border: blue;
 
    }
+  
+
 
    ul li {
 
@@ -60,13 +67,13 @@
 
 .images{
   position: relative;
-
+  padding-left: 100px
   }
 
 
    .images img{ 
    width: 1850px;
-   padding-left: 100px;
+   ;
    border-radius: 20px;
    
   } 
@@ -80,7 +87,7 @@
   font-size: 30px;
   font-weight: bold;
   text-shadow: 0 0 5px black;
-  
+
 }
 
 
@@ -108,29 +115,25 @@
     text-decoration: none;
   }
 
-  .jewelry img:hover{
-    width: 320px;
-  }
-
-
   .image-container {
   position: relative;
   width: 300px; 
   padding-left: 550px;
   padding-top: 50px;
+   
   }
 
 .image-container img {
   width: 100%;
   display: block;
   border-radius: 20px;
-  padding-left: 100px;
+ 
 }
 
 .text {
   position: absolute;
   top: 60%; 
-  left: 90%;
+  left: 80%;
   transform: translate(-50%, -50%);
   color: black;
   font-size: 40px;
@@ -144,24 +147,21 @@
 .image-container0{
   position: relative;
   width: 300px; 
-  padding-left: 50px;
+  padding-left: 300px;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .image-container0 img {
   width: 100%;
   display: block;
   border-radius: 20px;
-  padding-bottom: 100px;
-  padding-left: 200px;
-  
 }
 
 .text0  {
   position: absolute;
   top: 60%; 
-  left: 110%;
+  left: 75%;
   transform: translate(-50%, -50%);
   color: black;
   font-size: 40px;
@@ -176,7 +176,7 @@
      .text12 {
       font-size: 30px;
       padding-top: 0px;
-      padding-left: 750px;
+      padding-left: 860px;
       font-style: normal;
     font-weight: bold;
     font-family: Roboto, sans-serif;
@@ -191,7 +191,7 @@
 .image-container1{
   position: relative;
   width: 300px; 
-  padding-left: 750px;
+  padding-left: 850px;
   padding-top: 50px;
   padding-bottom: 100px;
 }
@@ -201,14 +201,12 @@
   display: block;
   border-radius: 20px;
   padding-bottom: 0px;
-  padding-left: 120px;
-  
 }
 
 .text123  {
   position: absolute;
   top: 90%; 
-  left: 97%;
+  left: 87%;
   transform: translate(-50%, -50%);
   color: black;
   font-size: 40px;
@@ -243,30 +241,146 @@
     color: green;
     text-decoration: none;
 }  
+
+.downtext {
+font-size: 40px;
+text-shadow: 0 0 5px black;
+}
+
+.links .facebook .whatsapp {
+  display: flex;       
+  gap: 20px;           
+  justify-content: center; 
+
+}
+
+.links a {
+  font-size: 60px;    
+  text-decoration: none;
+}
+
+.facebook { color: #1877f2; }
+.whatsapp { color: #25D366; }
+.instagram{color: #e1306c;}
+ .tiktok{color: black;}
+
+
+
+
+@media (max-width: 600px) {
+  /* Navigation */
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  ul li {
+    float: none;
+  }
+  ul li a {
+    font-size: 20px;
+    padding: 10px;
+  }
+  lb {
+    float: none;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  /* Hero image */
+  .images {
+    padding-left: 0;
+  }
+  .images img {
+    width: 100%;
+    height: auto;
+  }
+  .ftext {
+    font-size: 18px;
+    text-align: center;
+    position: static;
+    transform: none;
+    padding: 10px;
+    text-shadow: black;
+  }
+
+  /* Section text */
+  .text1,
+  .text12,
+  .text1234,
+  .About,
+  .downtext {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Jewelry section */
+  .jewelry {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container,
+  .image-container0,
+  .image-container1 {
+    padding-left: 0;
+    width: 95%;
+    margin: 15px auto;
+  }
+  .text,
+  .text0,
+  .text123 {
+    font-size: 18px;
+    position: static;
+    transform: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  /* Social links */
+  .links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+  .links a {
+    font-size: 28px;
+  }
+}
+
 </style>
 
        <body style="background-color:whitesmoke;">   
 
+
+
+<div class="navbar"> 
   <ul>
       <lb><a href="file:///C:/Users/Admin/Desktop/index/index.html" style="text-decoration:none; color: black;"> <b style="color:red; font-size: 47px;">T</b>rix-<b style="color:red;"></b>May's Jewelry and Collections</a></lb> 
 
-     <li><a href="https://wa.me/2349077622722?text=Hi%20i%20am%20here%20to%20inquire%20about%20your%20services.%20My%20name%20is " target="_blank" style="text-decoration:none;">Contact Trixmay </a> </li>
+       <li><a href="file:///C:/Users/Admin/Desktop/index/johnwebsite/index.html" style="text-decoration:none;">Home</a></li>
 
-    <li><a href="" target="_blank" style="text-decoration:none;">Place an Order </a></li>
+       <li><a href="file:///C:/Users/Admin/Desktop/index2/index2.html" target="_blank" style="text-decoration:none;">Products </a></li>
 
-    <li><a href="" target="_blank" style="text-decoration:none;">Services </a></li>
+    <li><a href="https://wa.me/2349077622722?text=Hi%20i%20am%20here%20to%20place%20an%20Order%20on%20one%20of%20your%20Services.%20My%20name%20is " target="_blank" style="text-decoration:none;">Place an Order </a></li>
 
-    <li><a href="file:///C:/Users/Admin/Desktop/index/johnwebsite/index.html" style="text-decoration:none;">Home</a></li>
+    <li><a href="https://wa.me/2349077622722?text=Hi%20i%20am%20here%20to%20inquire%20about%20your%20services.%20My%20name%20is " target="_blank" style="text-decoration:none;">Contact Trixmay </a> </li>
+
+   
 
     <li></div>
 
   </ul>
+</div>
+
 
 
 <div class="images"> 
      <img src="jewelry.jpg" alt="Jewelry">
 >
-<div class="ftext"> Trixmay is a modern beauty brand <br> offering stunning jewelries and <br> premium hair accessories designed to bring out your natural confidence.</br> <br> <a href="" style="text-decoration: none; color: greenyellow;"> Click here to Place an Order  >>> </a> </br> </div> 
+<div class="ftext"> Trixmay is a modern beauty brand <br> offering stunning jewelries and <br> premium hair accessories designed to bring out your natural confidence.</br> <br> <a href="https://wa.me/2349077622722?text=Hi%20i%20am%20here%20to%20place%20an%20Order%20on%20one%20of%20your%20Services.%20My%20name%20is " style="text-decoration: none; color: Green; text-shadow: black;"> Click me to Place an Order </a> </br> </div> 
 </div>
 
 
@@ -315,11 +429,7 @@
        <div class="text1234"> 
           <p> About Us </p> 
        </div>
-
-
-      
-   
-   
+       
       <div class="About"> 
       <center> <p> Trixmay Cosmetics & Jewelries is a trusted beauty brand committed to delivering high-quality cosmetics, elegant jewelry, and exceptional customer service. Our mission is to make beauty accessible by offering premium products at the best and most affordable prices.
 
@@ -330,10 +440,29 @@ Welcome to a place where beauty meets value.</p> </center>
    </div>
 
 
-      
+<br>   
+<div class="downtext">
+<center><h2>
+  For Enquiries
+</center></h2></div>
+
+   <div class="contacttrixmay"> <br> <center> <h4 style="color: black;"> Contact Trixmay via</h4> </center> </div>
+ 
+
+<center> <div class="links">  
+    <a href="https://wa.me/2349077622722?text=Hi%20i%20am%20here%20to%20place%20an%20Order%20on%20one%20of%20your%20Services.%20My%20name%20is " target="_blank" class="whatsapp">
+     <i class="fab fa-whatsapp" ></i> </a>
+     <a href="https://www.instagram.com/trix_may_hair_stylist?igsh=MTcwejQ4OXlqdHo3dA==" target="_blank" class="instagram">
+     <i class="fab fa-instagram"></i> </a>
+     <a href="https://www.tiktok.com/@trix_may6?_r=1&_t=ZS-95oUbs79dmm" target="_blank" class="tiktok">
+      <i class="fab fa-tiktok"></i> </a>
+    <a href="" target="_blank" class="facebook">
+     <i class="fab fa-facebook" ></i> </a>
+ </div> </center>
 
 
 
+    
 
 
 
